@@ -215,7 +215,7 @@
             android:background="#58A6E4"
 
             android:gravity="center"
-            android:text="MAY"
+            android:text="jun"
             android:textColor="#F5EDED"
 
             android:textSize="25sp"/>
