@@ -1,18 +1,235 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="first part"
+    android:textColor="@color/colorRed"
+    android:layout_marginLeft="10dp"
+    android:textSize="24dp"
+
+   />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="#58A6E4"
+            android:gravity="center"
+
+            android:text="JAN"
+            android:textColor="#F5EDED"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:src="@drawable/jan"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="80dp"
+
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="#58A6E4"
+            android:gravity="center"
+            android:text="FEB"
+
+            android:textColor="#F5EDED"
+            android:textSize="25sp"/>
+
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/feb"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+
+        android:background="@color/colorAccent"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_marginLeft="10dp"
+            android:background="#58A6E4"
+
+            android:gravity="center"
+            android:text="MAR"
+
+            android:textColor="#F5EDED"
+            android:textSize="25sp"/>
+
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:src="@drawable/mar"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="second part"
+
+            android:textColor="#FF0000"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="#58A6E4"
+            android:gravity="center"
+            android:text="APR"
+            android:textColor="#F5EDED"
+            android:textSize="25sp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/apr"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_marginLeft="10dp"
+            android:background="#58A6E4"
+
+            android:gravity="center"
+            android:text="MAY"
+            android:textColor="#F5EDED"
+
+            android:textSize="25sp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+
+            android:layout_height="80dp"
+            android:src="@drawable/may"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_marginLeft="10dp"
+            android:background="#58A6E4"
+
+            android:gravity="center"
+            android:text="MAY"
+            android:textColor="#F5EDED"
+
+            android:textSize="25sp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+
+            android:layout_height="80dp"
+            android:src="@drawable/jun"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
