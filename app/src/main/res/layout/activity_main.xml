@@ -7,15 +7,15 @@
     android:orientation="vertical"
     >
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="first part"
-    android:textColor="@color/colorRed"
-    android:layout_marginLeft="10dp"
-    android:textSize="24dp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:text="first part"
+        android:textColor="@color/colorRed"
+        android:textSize="24dp"
 
-   />
+        />
 
     <TextView
         android:layout_width="match_parent"
