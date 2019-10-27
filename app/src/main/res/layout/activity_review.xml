@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ReviewActivity">
+    tools:context=".ReviewActivity"
+    android:orientation="vertical">
+    <TextView
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:inputType="textPersonName"
+        android:id="@+id/etxLNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="LastName"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:inputType="textEmailAddress"
+        android:id="@+id/etxMailId"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="MailAddress"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:inputType="text"
+        android:id="@+id/etxAgeId"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/btnOkId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Ok"
+        />
+    <Button
+        android:id="@+id/btnEditId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Edit"
+        />
+</LinearLayout>
