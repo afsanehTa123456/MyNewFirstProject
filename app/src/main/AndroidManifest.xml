@@ -9,19 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NavigationActivity">
+        <activity android:name=".newRecycleView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NavigationActivity">
+
+        </activity>
         <activity android:name=".DialActivity" />
         <activity android:name=".ReviewActivity" />
         <activity android:name=".ActivityProfile" />
-        <activity android:name=".MainActivityForSession4">
-
-        </activity>
+        <activity android:name=".MainActivityForSession4"></activity>
         <activity android:name=".MainActivity" />
     </application>
 
