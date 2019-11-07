@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mynewfirstproject">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,20 +16,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".newRecycleView">
+        <activity android:name=".CameraActivity"></activity>
+        <activity android:name=".ThierdPage" />
+        <activity android:name=".Movie2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NavigationActivity">
-
-        </activity>
-        <activity android:name=".DialActivity" />
-        <activity android:name=".ReviewActivity" />
-        <activity android:name=".ActivityProfile" />
-        <activity android:name=".MainActivityForSession4"></activity>
+        <activity android:name=".MDetail2Activity" />
+        <activity android:name=".MainPage" />
+        <activity android:name=".DialPlace" />
+        <activity android:name=".SecPage" />
+        <activity android:name=".FirstPage" />
         <activity android:name=".MainActivity" />
     </application>
 
